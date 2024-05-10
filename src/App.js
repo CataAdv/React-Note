@@ -58,7 +58,7 @@ function App() {
         <header className="App-header">
           <center>
           <div style={{ position: 'relative' }}>
-            <input type="text" id="noteInput" placeholder="Write a message to add in notepad" onKeyDown={addNoteOnEnter} />
+            <input type="text" id="noteInput" placeholder="Write a message to add in your notes" onKeyDown={addNoteOnEnter} />
             <BiSolidDuplicate style={{ position: 'absolute', right: '15px', top: '40%', transform: 'translateY(-50%)' }} />
           </div>
           </center>
